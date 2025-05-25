@@ -3,6 +3,7 @@ import * as mongoose from 'mongoose';
 declare const ops: [
   'find',
   'findOne',
+  'findById',
   'count',
   'countDocuments',
   'estimatedDocumentCount',
