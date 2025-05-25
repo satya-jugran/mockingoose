@@ -21,6 +21,7 @@ mongoose.createConnection = jest.fn().mockReturnValue({
 const ops = [
   'find',
   'findOne',
+  'findById',
   'count',
   'countDocuments',
   'estimatedDocumentCount',
@@ -124,6 +125,7 @@ ops.forEach((op) => {
         [
           'find',
           'findOne',
+          'findById',
           'count',
           'countDocuments',
           'remove',
